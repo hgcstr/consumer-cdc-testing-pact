@@ -1,0 +1,137 @@
+I, [2020-07-29T16:48:17.143332 #73049]  INFO -- : Registered expected interaction GET /users/1
+D, [2020-07-29T16:48:17.143576 #73049] DEBUG -- : {
+  "description": "a request for a single user",
+  "providerState": "i have a list of users",
+  "request": {
+    "method": "GET",
+    "path": "/users/1",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "name": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "king arthur"
+      },
+      "password": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "password1"
+      },
+      "profession": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "king"
+      }
+    }
+  }
+}
+I, [2020-07-29T16:48:17.150373 #73049]  INFO -- : Received request GET /users/1
+D, [2020-07-29T16:48:17.150466 #73049] DEBUG -- : {
+  "path": "/users/1",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.19.0",
+    "Host": "localhost:8991",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-07-29T16:48:17.150682 #73049]  INFO -- : Found matching response for GET /users/1
+D, [2020-07-29T16:48:17.150766 #73049] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "name": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "king arthur"
+    },
+    "password": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "password1"
+    },
+    "profession": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "king"
+    }
+  }
+}
+I, [2020-07-29T16:48:17.154833 #73049]  INFO -- : Verifying - interactions matched
+I, [2020-07-29T16:48:17.157715 #73049]  INFO -- : Cleared interactions
+I, [2020-07-29T16:48:17.160893 #73049]  INFO -- : Registered expected interaction GET /users/1
+D, [2020-07-29T16:48:17.161002 #73049] DEBUG -- : {
+  "description": "a request for a single user",
+  "providerState": "i have a list of users",
+  "request": {
+    "method": "GET",
+    "path": "/users/1",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "name": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "king arthur"
+      },
+      "password": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "password1"
+      },
+      "profession": {
+        "json_class": "Pact::SomethingLike",
+        "contents": "king"
+      }
+    }
+  }
+}
+I, [2020-07-29T16:48:17.164399 #73049]  INFO -- : Received request GET /users/1
+D, [2020-07-29T16:48:17.164486 #73049] DEBUG -- : {
+  "path": "/users/1",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.19.0",
+    "Host": "localhost:8991",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2020-07-29T16:48:17.164661 #73049]  INFO -- : Found matching response for GET /users/1
+D, [2020-07-29T16:48:17.164732 #73049] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "name": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "king arthur"
+    },
+    "password": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "password1"
+    },
+    "profession": {
+      "json_class": "Pact::SomethingLike",
+      "contents": "king"
+    }
+  }
+}
+I, [2020-07-29T16:48:17.167684 #73049]  INFO -- : Verifying - interactions matched
+I, [2020-07-29T16:48:17.170513 #73049]  INFO -- : Cleared interactions
+I, [2020-07-29T16:48:17.173810 #73049]  INFO -- : Merging interactions into pact for MyProvider at /Users/HugoCastro/Documents/meetup/contract-testing/consumer-test/pacts/myconsumer-myprovider.json
